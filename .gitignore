@@ -1,0 +1,18 @@
+# Do not track binary firmware, dumps, captures, keys or private data
+*.ko
+*.img
+*.bin
+*.fw
+*.ts
+*.tar
+*.tar.gz
+*.zip
+*.log
+*.dump
+*.key
+*.pem
+.env
+secrets/
+private/
+firmware/
+backups/

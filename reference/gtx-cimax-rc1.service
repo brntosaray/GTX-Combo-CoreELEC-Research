@@ -1,0 +1,14 @@
+[Unit]
+Description=GTX CoreELEC RC1 CIMaX firmware/config and satellite TS routing
+After=kernel-overlays.service
+Before=kodi.service service.tvheadend43.service
+ConditionPathExists=/storage/GTX_CIMAX_RC1/bin/cimax_gpio_pulse_v2
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /storage/GTX_CIMAX_RC1/gtx-cimax-rc1.sh
+TimeoutStartSec=105
+RemainAfterExit=yes
+
+[Install]
+WantedBy=basic.target
