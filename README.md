@@ -1,5 +1,8 @@
 # GTMedia GTX Combo — CoreELEC DVB community research
 
+**Community:** [Discussions](https://github.com/brntosaray/GTX-Combo-CoreELEC-Research/discussions) · [Welcome topic (ready to publish)](docs/COMMUNITY_WELCOME.md) · [Issues](https://github.com/brntosaray/GTX-Combo-CoreELEC-Research/issues)
+
+
 **Community technical evidence • GTMedia GTX Combo (Amlogic S905X3) • CoreELEC 22 Piers RC1 / Linux 5.15.196**
 
 > **Status (17 November 2026): DVB-S/S2 reception confirmed on one operator-owned GTX Combo in a SAT-only test configuration. DVB-T/T2 support is NOT claimed. This is not an official CoreELEC release or a universal installer.**
